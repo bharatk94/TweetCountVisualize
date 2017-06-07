@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Twitter trends test</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="js/canvasjs.min.js"></script>
+      <script src="js/jquery.canvasjs.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="css/styles.css">
+   </head>
+   <body>
+      <nav class="navbar navbar-default">
+         <div class="container-fluid">
+            <div class="navbar-header">
+               <a class="navbar-brand" href="#">TWEETzCOUNTER</a>
+            </div>
+         </div>
+      </nav>
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-4 col-lg-4 col-left" ">
+               <div class="col-heading">SELECT COUNTRIES</div>
+               <div class="row">
+                  <div class="col-sm-12 ol-lg-12">
+                     <label class="col-sm-offset-2 col-lg-offset-2 country-label">Select Country</label>
+                     <span class="glyphicon glyphicon-globe globe1"></span>
+                     <select class="col-sm-offset-2 col-lg-offset-2 country-list pointer" id="country1">
+                     </select>
+                     <label class="col-sm-offset-2 col-lg-offset-2 country-label">Select Country</label>
+                     <span class="glyphicon glyphicon-globe globe2"></span>
+                     <select class="col-sm-offset-2 col-lg-offset-2 country-list pointer" id="country2">
+                     </select>
+                  </div>
+               </div>
+               <div class="col-heading">COMMON TRENDS</div>
+               <div class="row showcommon" >
+                  <div class="col-sm-12 col-lg-12 col-sm-offset-1" id="commonTrends">
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-8 col-lg-8">
+               <div class="row">
+                  <div class="col-sm-12 col-lg-12">
+                     <div class="col-heading">DATA VISUALIZATION</div>
+                     <div id="chartDiv"></div>
+                  </div>
+               </div>
+            </div>
+            <!-- <div class="col-sm-2" style="background-color:blue;">
+               asdas
+               </div> -->
+         </div>
+         <!-- <div class="row">
+            <div class="col-sm-4 col-left" ">
+            </div>
+            </div> -->
+      </div>
+   </body>
+   <script src="js/index.js"></script>
+</html>

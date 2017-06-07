@@ -1,0 +1,73 @@
+.col-heading {
+background-color:#D35400;
+font-weight:700;
+text-align:center;
+height:35px;
+color:#fff;
+padding:8px;
+}
+
+.col-left {
+background-color:#F3F0F0;
+padding:0;
+}
+
+.country-list {
+border:none;
+border-bottom:1px solid #26a6b7;
+width:75%;
+background-color:#F3F0F0;
+margin-bottom:30px;
+padding:5px;
+}
+
+.globe1{
+    color: #26a6b7;
+    position: absolute;
+    left: 60px;
+    top: 67px;
+}
+
+.globe2{
+    color:#26a6b7;
+    position: absolute;
+    left: 60px;
+   top: 180px;
+}
+
+.pointer
+{
+cursor: pointer;
+}
+
+.country-label {
+color:#26a6b7;
+margin-top:15px;
+font-size:1.2em;
+padding:10px 0 5px;
+}
+
+.container {
+margin-top:30px;
+}
+
+#chartDiv {
+width:100%;
+height:500px;
+}
+
+.trendscol {
+color:#26a6b7;
+font-size:1.1em;
+font-weight:700;
+margin:0;
+padding:12px 0 5px 30px;
+}
+
+.showcommon {
+width:104%;
+height:245px;
+overflow-y:auto;
+overflow-x:hidden;
+}
+
